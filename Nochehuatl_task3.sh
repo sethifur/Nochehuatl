@@ -21,7 +21,7 @@
 # Treat unset variables as an error
 usage="Usage: $0 [-f  BeginDate YYYYMMDD] [-t EndDate YYYYMMDD] [-e Email] [-u UserName] [-p Password] all options are required"
 
-if[[ "$#" -ne 6 ]]
+if [[ "$#" == 6 ]]
 then
 	echo -e "$usage \nNot long enough"
 	exit 1
@@ -45,16 +45,16 @@ do
 			;;
 	esac
 done
+./Nochehuatl_task2.py $beginDate $endDate
 
-ftp -nv $host << End_of_Line
-user  $userName $password
-pwd
-ls -la
-cd /data
-pwd
-ls -la
-
-End_of_Line
+#ftp -nv $host << End_of_Line
+#user  $userName $password
+#pwd
+#ls -la
+#cd /data
+#pwd
+#ls -la
+#End_of_Line
 
 
 
