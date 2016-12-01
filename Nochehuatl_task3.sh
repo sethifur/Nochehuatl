@@ -46,7 +46,7 @@ do
 	esac
 done
 ./Nochehuatl_task2.py $beginDate $endDate
-
+echo "$?"
 #ftp -nv $host << End_of_Line
 #user  $userName $password
 #pwd
