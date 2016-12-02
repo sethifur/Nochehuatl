@@ -48,6 +48,7 @@ done
 ./Nochehuatl_task2.py $beginDate $endDate
 echo "$?"
 
+#Should send emails based on the exit codes of the task2.py call
 if [[ $? -eq -1 ]]
 then
 mail -s "The create_report program exit with code -1" $email <<< "Bad Input parameters $beginDate to $endDate"
@@ -60,17 +61,21 @@ mail -s "The create_report program exit with code -2" $email <<< "No transaction
 echo "Exit code -2. Email sent to $email"
 fi
 
+#Beginning of FTP code
 USERN=$userName
 PASSWD=$password
 
 #HOSTNAME OF YOUR FTP SERVER
 #CHANGE TO OWN ADDRESS FOR TESTING
 HOST='137.190.19.102'
-filename=company_trans_$(beginDate)_$(endDate).dat
+
+#Not sure if correct file name!
+filename=company_trans_$beginDate_$endDate.dat
 `gzip $filename`
 mv $filename.gz hw8Out.zip
 
-if [[ -n "$USERN" && -n "PASSWD" ]]
+#Issue with put due to previous file name errors. 
+if [[ -n "$USERN" && -n "$PASSWD" ]]
 then
 	echo "Using $USERN FTP account"
 	ftp -inv $HOST << EOF
