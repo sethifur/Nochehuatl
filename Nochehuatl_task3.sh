@@ -48,13 +48,13 @@ done
 ./Nochehuatl_task2.py $beginDate $endDate
 echo "$?"
 
-if [ $? -eq -1 ]
+if [[ $? -eq -1 ]]
 then
 mail -s "The create_report program exit with code -1" $email <<< "Bad Input parameters $beginDate to $endDate"
 echo "Exit code -1. Email sent to $email"
 fi
 
-if [ $? -eq -2 ] 
+if [[ $? -eq -2 ]]
 then
 mail -s "The create_report program exit with code -2" $email <<< "No transactions available from $beginDate to $endDate"
 echo "Exit code -2. Email sent to $email"
@@ -79,9 +79,10 @@ then
 	put hw8Out.zip
 	bye
 EOF
-mail -s "Successfully transfer file ($HOST)" <<< "Successfully created a transaction report from $beginDate to $endDate"
-echo "Email has been sent to $email"
 fi
+
+mail -s "Successfully transfer file ($HOST)" $email <<< "Successfully created a transaction report from $beginDate to $endDate"
+echo "Email has been sent to $email"
 
 
 exit 0
