@@ -1,7 +1,4 @@
-This is the first part of the read me
-Lance  - MySql
-Seth   - shellscript
-Jordan - python script / ftp
+
 
 Nachehuatl_task3.sh is the .sh script that acts as a wrapper and runs the program.
 	- It takes five arguments

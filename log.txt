@@ -1,0 +1,77 @@
+commit 09980a9823a7a98d7d407c72adeca46ef662df24
+Author: LanceFreund <lancefreund@mail.weber.edu>
+Date:   Sun Dec 4 04:46:52 2016 +0000
+
+    added documentation
+
+commit 68e36b256be50a955d39366bf82bd020083b206e
+Author: LanceFreund <lancefreund@mail.weber.edu>
+Date:   Sun Dec 4 03:15:47 2016 +0000
+
+    file edits
+
+commit d154179efa5fc492f2b631f72817abca9c3d6e5e
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Dec 1 21:39:58 2016 -0700
+
+    Added comments on bugs for ftp
+
+commit ffaaaeb82e9f71e0162b85c7bc594f98430be1d7
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Dec 1 21:21:29 2016 -0700
+
+    More fixes for email/ftp. Needs more testing
+
+commit 2e2ebf070ab42e60bd7e6258dd0bbb10e570663e
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Dec 1 21:09:18 2016 -0700
+
+    More work with ftp and added email sending. Needs more testing!
+
+commit f5dcf144d1f07df926f00a91d88547e2be40394d
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Dec 1 20:25:12 2016 -0700
+
+    Working on ftp, still needs testing
+
+commit 5cf49a867de6f712f1c862ccfbf964d2d8f4e077
+Author: sethifur <sethjohns@mail.weber.edu>
+Date:   Thu Dec 1 21:02:56 2016 +0000
+
+    got almost everything done
+
+commit 2e78958b3df6f3ade58748406d4599ec65002391
+Author: sethifur <sethjohns@mail.weber.edu>
+Date:   Thu Dec 1 17:12:10 2016 +0000
+
+    shell
+
+commit b0cb7c0dc72bfe2a28ad9a24d16be8189084b0cc
+Author: sethifur <sethjohns@mail.weber.edu>
+Date:   Wed Nov 30 21:48:54 2016 +0000
+
+    changes date on task 2 to the correct format copied my dbconfig.py from inclass example i hope it works
+
+commit 5c660a2aea2c69eebb10f90b52f9d2229743bc85
+Author: sethifur <sethjohns@mail.weber.edu>
+Date:   Wed Nov 30 04:22:51 2016 +0000
+
+    made the python template
+
+commit 884855bbdb33f0e447a347f8c9c085f560491958
+Author: sethifur <sj22542@icarus.cs.weber.edu>
+Date:   Thu Nov 24 20:56:39 2016 +0000
+
+    gitopts working and usage. working on the ftp dont fully understand what i need to do with it.
+
+commit b51cb96254089a5a16afe2372b2316c8ae3e2bcf
+Author: sethifur <sj22542@icarus.cs.weber.edu>
+Date:   Thu Nov 17 20:12:53 2016 +0000
+
+    readme responcabilitys
+
+commit 193d4e0144f082acf161d2581c13a571767508cc
+Author: sethifur <sj22542@icarus.cs.weber.edu>
+Date:   Thu Nov 17 19:51:36 2016 +0000
+
+    first commit
