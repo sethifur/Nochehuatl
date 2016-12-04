@@ -5,12 +5,22 @@
 # 
 #         USAGE: ./Nochehuatl_task3.sh 
 # 
-#   DESCRIPTION: 
+#   DESCRIPTION: Group project 8
 # 
-#       OPTIONS: ---
-#  REQUIREMENTS: ---
-#          BUGS: ---
-#         NOTES: ---
+#         NOTES: This is the shell wrapper that runs all other .py modules it takes 5 args that are provided by the user.
+#
+#	beginDate
+#	endDate
+#	email
+#	userName
+#	password
+#	
+#	- Once ran it calls ./Nachehuatl_task2.py and provides beginDate and endDate as args for 
+#
+#	- Depending on what is reterned, the proper email is sent informing the user of success or failure
+#
+#	- And a file (hw8Out.zip) is created and sent ftp to the user.
+#
 #        AUTHOR: Seth Johns (), sethjohns@mail.weber.edu
 #  ORGANIZATION: 
 #       CREATED: 11/24/2016 20:12

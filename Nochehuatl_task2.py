@@ -10,7 +10,7 @@ import io
 
 def change_format(begin,end):
     '''
-    changes the format of dates to YYYY-MM-DD HH:mm
+    changes the format of dates from YYYYMMDD to YYYY-MM-DD HH:mm
     Args:
         begin is a date in YYYYMMDD
         end is a date in YYYYMMDD
